@@ -13,3 +13,13 @@ approach is capable of learning faster with a better accuracy.
 We evaluate the proposed model on two challenging
 benchmarks, i.e., Charades-STA and ActivityNet Captions
 where our model has promising results.
+
+## Overview
+Direct link to the master thesis describing the approach code [Thesis_link](https://www.politesi.polimi.it/bitstream/10589/143008/3/PATHOSnet.pdf).
+
+An approach for emotion recognition leveraging Neural Networks, which combines audio and text analysis. The purpose of this
+work is to build a system capable of recognising different emotions combining acoustic and textual information, and show that this approach outperforms
+systems based on the separate analysis of these two modalities. 
+
+![Alt text](/git-docs/model.JPG ) 
+
