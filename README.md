@@ -1,4 +1,4 @@
-# Text-to-Video-Retrieval-Neural-Networkvia-using-Proxies-Learning
+# Text-to-Video-Retrieval-Neural-Network-using-Proxies-Learning
 
 ## Overview
 We address the problem of retrieving a specific moment
