@@ -1,5 +1,6 @@
 # Text-to-Video-Retrieval-Neural-Networkvia-using-Proxies-Learning
 
+## Overview
 We address the problem of retrieving a specific moment
 from a video by a natural language query. This is a challenging
 problem because a target moment may have semantic
@@ -14,16 +15,6 @@ We evaluate the proposed model on two challenging
 benchmarks, i.e., Charades-STA and ActivityNet Captions
 where our model has promising results.
 
-## Overview
-Direct link to the master thesis describing the approach code [Thesis_link](https://www.politesi.polimi.it/bitstream/10589/143008/3/PATHOSnet.pdf).
-
-An approach for emotion recognition leveraging Neural Networks, which combines audio and text analysis. The purpose of this
-work is to build a system capable of recognising different emotions combining acoustic and textual information, and show that this approach outperforms
-systems based on the separate analysis of these two modalities. 
-
-![Alt text](/git-docs/model.JPG ) 
-
-
 ## Moment localization in video using textual queries
 Localizing video moments that
 match to a query sentence is a challenging task. It requires
@@ -37,7 +28,9 @@ pipeline. Most of the current language-queried video
 grounding methods use the two-stage pipeline
 where they first generate moment candidates and calculate
 similarity scores between these candidates and query sentence.
+
 ![Alt text](/git-docs/2D_TAN.JPG) 
+
 Reference paper [2D-TAN_paper_link](https://arxiv.org/pdf/1912.03590.pdf)
 
 ## Proxies NCA ++
@@ -52,7 +45,9 @@ and more lately ProxyNCA++ in which each sample is
 assigned to a cluster centroid, and at each training batch,
 samples are attracted to cluster centroids of similar classes
 and pushed away by cluster centroids of different classes.
+
 ![Alt text](/git-docs/proxies_nca++.JPG) 
+
 Reference paper [Proxies_paper_link](https://arxiv.org/pdf/1912.03590.pdf)
 
 ## Proxies integration with 2D-TAN model
@@ -69,6 +64,7 @@ the BCE loss used by the original 2D-TAN model (Figure
 2). The loss value obtained by summing the 2 losses is than
 used to back-propagate the error and update both the proxies
 and 2D-TAN model weights.
+
 ![Alt text](/git-docs/proxies_loss.JPG) 
 
 ## Results
@@ -91,5 +87,6 @@ higher batch size. This is particularly interesting
 since it proves that the proxies are here not only to increase
 the batch size but also to provides an high level video representation
 that help the model learning process.
+
 ![Alt text](/git-docs/results.JPG) 
 
