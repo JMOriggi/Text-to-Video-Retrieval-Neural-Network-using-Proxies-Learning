@@ -23,3 +23,12 @@ systems based on the separate analysis of these two modalities.
 
 ![Alt text](/git-docs/model.JPG ) 
 
+
+## Moment localization in video using textual queries
+![Alt text](/git-docs/2D_TAN.JPG ) 
+## Proxies NCA ++
+![Alt text](/git-docs/proxies_nca++.JPG ) 
+## Proxies integration with 2D-TAN model
+![Alt text](/git-docs/proxies_loss.JPG ) 
+## Results
+![Alt text](/git-docs/results.JPG ) 
