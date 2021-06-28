@@ -26,6 +26,8 @@ systems based on the separate analysis of these two modalities.
 
 ## Moment localization in video using textual queries
 ![Alt text](/git-docs/2D_TAN.JPG ) 
+
+Reference paper [paper_link](https://arxiv.org/pdf/1912.03590.pdf).
 ## Proxies NCA ++
 ![Alt text](/git-docs/proxies_nca++.JPG ) 
 ## Proxies integration with 2D-TAN model
